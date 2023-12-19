@@ -4,8 +4,8 @@ import WaterDropSharpIcon from '@mui/icons-material/WaterDropSharp';
 
 export default function MuiNavbar() {
   return (
-    <AppBar postion='static'> 
-        <Toolbar>
+    <AppBar postion='static' sx={{height: '6%'}}> 
+        <Toolbar sx={{height: '100%', width: '100%'}}>
             <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
                 <WaterDropSharpIcon/> 
             </IconButton>
